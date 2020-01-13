@@ -1,0 +1,4 @@
+org\carlos\alitest\steps\serenity\EndUserSteps.class
+org\carlos\alitest\pages\DictionaryPage.class
+org\carlos\alitest\steps\DefinitionSteps.class
+org\carlos\alitest\AcceptanceTestSuite.class
