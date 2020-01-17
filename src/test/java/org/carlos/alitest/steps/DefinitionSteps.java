@@ -33,14 +33,8 @@ public class DefinitionSteps {
         endUser.lookup_resultNumber(resultNumber);
     }
 
-    @Then("the user asserts that at least '$definition' item is able to buy")
-    public void thenTheyShouldSeeADefinitionContainingTheWords(String definition) {
-        endUser.should_see_definition(definition);
+    @Then("the user asserts that at least 1 item is able to buy")
+    public void thenTheUserAssertThatIsAbleToBuy() {
+        endUser.lookup_item_able_to_buy();
     }
-
-
-//    And the user navigates to <page> number
-//    And the user search for the <resultNumber> result
-
-
 }

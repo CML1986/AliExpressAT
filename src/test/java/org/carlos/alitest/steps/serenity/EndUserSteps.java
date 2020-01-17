@@ -32,13 +32,6 @@ public class EndUserSteps {
     }
 
     @Step
-    public void should_see_definition(String definition) {
-        if (definition != "0") {
-        assertThat(aliExpressPage.getDefinitions(), hasItem(containsString(definition)));
-        }
-    }
-
-    @Step
     public void is_the_home_page() {
         aliExpressPage.open();
     }
@@ -47,5 +40,10 @@ public class EndUserSteps {
     public void looks_for(String word) {
         enters(word);
         starts_search();
+    }
+
+    @Step
+    public void lookup_item_able_to_buy() {
+        aliExpressPage.lookup_item_able_to_buy();
     }
 }

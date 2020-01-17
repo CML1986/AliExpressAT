@@ -1,6 +1,6 @@
 #org.jbehave.core.embedder.StoryManager
-#Mon Jan 13 13:46:45 ART 2020
+#Thu Jan 16 23:54:18 ART 2020
 threads=1
-total=34000
-threadAverage=34000
-stories/aliexpress_search/LookupForItem.story=34000
+total=43000
+threadAverage=43000
+stories/aliexpress_search/LookupForItem.story=43000
